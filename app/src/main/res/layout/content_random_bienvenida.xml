@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.davidjose.randomapp.RandomBienvenida"
+    tools:showIn="@layout/activity_random_bienvenida">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Su total es 0"
+        android:textSize="40sp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/tvMostrar" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Suma Uno"
+        android:id="@+id/Sumar"
+        android:layout_below="@+id/tvMostrar"
+        android:layout_marginTop="50dp"
+        android:width="200dp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Restar Uno"
+        android:id="@+id/Restar"
+        android:layout_below="@+id/Sumar"
+        android:width="200dp"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
